@@ -1,0 +1,295 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+		Verdana, sans-serif;
+}
+
+.navBar {
+	width: 100%;
+	background-color: #6f6af7;
+	height: 250px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+}
+
+.innerNav {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 70px;
+}
+
+.dappr {
+	font-family: "Delius Unicase", cursive;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 90px;
+	line-height: 80px;
+	color: #ffffff;
+}
+
+.navContent {
+	font-family: "DM Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 70px;
+	color: #ffffff;
+}
+.search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search input[type="text"]::placeholder {
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 45px;
+	color: #9f9f9f;
+	padding: 25px;
+	margin: 5px;
+}
+
+.search input {
+	width: 500px;
+	height: 80px;
+	border-radius: 40px;
+}
+
+.searchIcon {
+	position: absolute;
+	right: 400px;
+	pointer-events: none;
+}
+
+.content {
+	margin-top: 300px;
+	padding: 40px;
+	margin-left: 100px;
+}
+
+section {
+	margin-top: 50px;
+	width: 2690px;
+	padding: 10px;
+	/* background-color: red; */
+}
+
+.firstLayer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -600px;
+}
+
+.firstLayer img {
+	width: 30%;
+	height: 800px;
+}
+
+.icons-container {
+	position: sticky;
+	width: 200px;
+	top: 300px;
+	height: 100px;
+	margin-left: 2880px;
+	z-index: 2000;
+	margin-top: 500px;
+}
+.icon {
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.whatsappIcon {
+	border: 4px solid black;
+}
+
+.firstLayer textarea {
+	width: 60%;
+	height: 800px;
+	background-color: #e5d8ff;
+	border-radius: 20px;
+	border-color: #ffffff;
+}
+
+.firstLayer textarea[type="text"]::placeholder {
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 55px;
+	color: #6f7373;
+	padding: 40px;
+	margin: 10px;
+}
+
+.secondLayer {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "DM Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 70px;
+	color: #ffffff;
+}
+
+.secondLayer1 {
+	padding: 50px;
+	background-color: #929dff;
+	height: 150px;
+	width: 600px;
+	margin: 50px;
+	border-color: white;
+	border-radius: 20px;
+}
+
+.secondLayer2 {
+	padding: 50px;
+	background-color: #734cf2;
+	height: 150px;
+	width: 600px;
+	margin: 50px;
+	border-color: white;
+	border-radius: 20px;
+}
+
+.secondLayer3 {
+	padding: 50px;
+	background-color: #d288ff;
+	height: 150px;
+	width: 600px;
+	margin: 50px;
+	border-color: white;
+	border-radius: 20px;
+}
+
+.secondLayer4 {
+	padding: 50px;
+	background-color: #000000;
+	height: 150px;
+	width: 600px;
+	margin: 50px;
+	border-color: white;
+	border-radius: 20px;
+}
+
+.thirdLayer {
+	background-color: #483eff;
+	height: 1000px;
+	margin-bottom: 80px;
+	border-radius: 40px;
+	border-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.thirdLayerLeft {
+	width: 30%;
+	height: 800px;
+	margin-left: 150px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.thirdLayerLeftInner {
+	margin: 50px;
+	padding: 50px;
+	width: 600px;
+	height: 200px;
+	border-radius: 20px;
+	border: 7px solid white;
+	text-align: center;
+	font-family: "DM Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 70px;
+	color: #ffffff;
+}
+
+.tLI1 {
+	background-color: #bce0f6;
+	color: black;
+}
+
+.thirdLayerRight {
+	width: 60%;
+	height: 800px;
+	margin-right: 150px;
+	background-color: white;
+	margin: 50px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 25px;
+}
+
+.thirdLayerRightSpan1 {
+	margin-top: 50px;
+	margin-left: 100px;
+	font-family: "Inter";
+	font-weight: 600;
+	font-size: 70px;
+	color: #04285a;
+	line-height: 60px;
+}
+
+.thirdLayerRightSpan2 {
+	margin-left: 1100px;
+	background-color: black;
+	width: 300px;
+	height: 80px;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 60px;
+	border-radius: 10px;
+}
+
+.thirdLayerRightDiv {
+	margin-bottom: 250px;
+	margin-left: 200px;
+}
+
+.thirdLayerRightDiv span {
+	color: #04285a;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+}
+
+.thirdLayerRightDiv div {
+	color: #04285a;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 50px;
+}
+
+.lastSection {
+	display: flex;
+	justify-content: end;
+	margin-top: -200px;
+}
+
+/*          */
+
+/* CSSSSSSSSSSSSSSSSSSSSSS FONT */
