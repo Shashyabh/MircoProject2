@@ -9,7 +9,7 @@ html {
 .navBar {
 	width: 100%;
 	background-color: #6f6af7;
-	height: 250px;
+	height: 125px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -22,16 +22,16 @@ html {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 50px;
-	margin-right: 70px;
+	margin-left: 25px;
+	margin-right: 35px;
 }
 
 .dappr {
 	font-family: "Delius Unicase", cursive;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 90px;
-	line-height: 80px;
+	font-size: 45px;
+	line-height: 40px;
 	color: #ffffff;
 }
 
@@ -39,8 +39,8 @@ html {
 	font-family: "DM Sans", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 50px;
-	line-height: 70px;
+	font-size: 25px;
+	line-height: 35px;
 	color: #ffffff;
 }
 .search {
@@ -51,71 +51,71 @@ html {
 .search input[type="text"]::placeholder {
 	font-family: "DM Sans", sans-serif;
 	font-weight: 400;
-	font-size: 35px;
-	line-height: 45px;
+	font-size: 20px;
+	line-height: 22px;
 	color: #9f9f9f;
-	padding: 25px;
+	padding: 10px;
 	margin: 5px;
 }
 
 .search input {
-	width: 500px;
-	height: 80px;
-	border-radius: 40px;
+	width: 250px;
+	height: 35px;
+	border-radius: 20px;
 }
 
 .searchIcon {
 	position: absolute;
-	right: 400px;
+	right: 200px;
 	pointer-events: none;
 }
 
 .content {
-	margin-top: 300px;
-	padding: 40px;
-	margin-left: 100px;
+	margin-top: 150px;
+	padding: 20px;
+	margin-left: 50px;
 }
 
 section {
-	margin-top: 50px;
-	width: 2690px;
-	padding: 10px;
+	margin-top: 25px;
+	width: 1345px;
+	padding: 5px;
 	/* background-color: red; */
 }
 
 .firstLayer {
 	display: flex;
 	justify-content: space-between;
-	margin-top: -600px;
+	margin-top: -250px;
 }
 
 .firstLayer img {
 	width: 30%;
-	height: 800px;
+	height: 400px;
 }
 
 .icons-container {
 	position: sticky;
-	width: 200px;
-	top: 300px;
-	height: 100px;
-	margin-left: 2880px;
+	width: 40px;
+	top: 150px;
+	height: 40px;
+	margin-left: 1425px;
 	z-index: 2000;
-	margin-top: 500px;
+	margin-top: 225px;
 }
 .icon {
-	width: 80px;
-	height: 80px;
-	margin-top: 10px;
+	width: 60px;
+	height: 60px;
+	margin-top: 2px;
 	border-radius: 10px;
 }
 .whatsappIcon {
-	border: 4px solid black;
+	border: 2px solid black;
 }
 
 .firstLayer textarea {
 	width: 60%;
-	height: 800px;
+	height: 400px;
 	background-color: #e5d8ff;
 	border-radius: 20px;
 	border-color: #ffffff;
@@ -124,71 +124,71 @@ section {
 .firstLayer textarea[type="text"]::placeholder {
 	font-family: "DM Sans", sans-serif;
 	font-weight: 400;
-	font-size: 50px;
-	line-height: 55px;
+	font-size: 25px;
+	line-height: 28px;
 	color: #6f7373;
-	padding: 40px;
-	margin: 10px;
+	padding: 20px;
+	margin: 5px;
 }
 
 .secondLayer {
-	margin-top: 100px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-family: "DM Sans", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 50px;
-	line-height: 70px;
+	font-size: 25px;
+	line-height: 35px;
 	color: #ffffff;
 }
 
 .secondLayer1 {
-	padding: 50px;
+	padding: 25px;
 	background-color: #929dff;
-	height: 150px;
-	width: 600px;
-	margin: 50px;
+	height: 75px;
+	width: 300px;
+	margin: 25px;
 	border-color: white;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 .secondLayer2 {
-	padding: 50px;
+	padding: 25px;
 	background-color: #734cf2;
-	height: 150px;
-	width: 600px;
-	margin: 50px;
+	height: 75px;
+	width: 300px;
+	margin: 25px;
 	border-color: white;
 	border-radius: 20px;
 }
 
 .secondLayer3 {
-	padding: 50px;
+	padding: 25px;
 	background-color: #d288ff;
-	height: 150px;
-	width: 600px;
-	margin: 50px;
+	height: 75px;
+	width: 300px;
+	margin: 25px;
 	border-color: white;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .secondLayer4 {
-	padding: 50px;
+	padding: 25px;
 	background-color: #000000;
-	height: 150px;
-	width: 600px;
-	margin: 50px;
+	height: 75px;
+	width: 300px;
+	margin: 25px;
 	border-color: white;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 .thirdLayer {
 	background-color: #483eff;
-	height: 1000px;
-	margin-bottom: 80px;
-	border-radius: 40px;
+	height: 500px;
+	margin-bottom: 40px;
+	border-radius: 20px;
 	border-color: white;
 	display: flex;
 	justify-content: space-between;
@@ -196,27 +196,27 @@ section {
 
 .thirdLayerLeft {
 	width: 30%;
-	height: 800px;
-	margin-left: 150px;
-	margin-top: 100px;
+	height: 400px;
+	margin-left: 75px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .thirdLayerLeftInner {
-	margin: 50px;
-	padding: 50px;
-	width: 600px;
-	height: 200px;
-	border-radius: 20px;
+	margin: 25px;
+	padding: 25px;
+	width: 300px;
+	height: 100px;
+	border-radius: 10px;
 	border: 7px solid white;
 	text-align: center;
 	font-family: "DM Sans", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 50px;
-	line-height: 70px;
+	font-size: 25px;
+	line-height: 30px;
 	color: #ffffff;
 }
 
@@ -227,67 +227,67 @@ section {
 
 .thirdLayerRight {
 	width: 60%;
-	height: 800px;
-	margin-right: 150px;
+	height: 400px;
+	margin-right: 75px;
 	background-color: white;
-	margin: 50px;
-	padding: 50px;
+	margin: 25px;
+	padding: 25px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	border-radius: 25px;
+	border-radius: 12px;
 }
 
 .thirdLayerRightSpan1 {
-	margin-top: 50px;
-	margin-left: 100px;
+	margin-top: 25px;
+	margin-left: 50px;
 	font-family: "Inter";
 	font-weight: 600;
-	font-size: 70px;
+	font-size: 35px;
 	color: #04285a;
 	line-height: 60px;
 }
 
 .thirdLayerRightSpan2 {
-	margin-left: 1100px;
+	margin-left: 550px;
 	background-color: black;
-	width: 300px;
-	height: 80px;
+	width: 150px;
+	height: 40px;
 	color: white;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 12px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	font-size: 50px;
-	line-height: 60px;
+	font-size: 25px;
+	line-height: 30px;
 	border-radius: 10px;
 }
 
 .thirdLayerRightDiv {
-	margin-bottom: 250px;
-	margin-left: 200px;
+	margin-bottom: 125px;
+	margin-left: 100px;
 }
 
 .thirdLayerRightDiv span {
 	color: #04285a;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
-	font-size: 45px;
-	line-height: 50px;
+	font-size: 23px;
+	line-height: 26px;
 }
 
 .thirdLayerRightDiv div {
 	color: #04285a;
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
-	font-size: 35px;
-	line-height: 50px;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .lastSection {
 	display: flex;
 	justify-content: end;
-	margin-top: -200px;
+	margin-top: -100px;
 }
 
 /*          */
